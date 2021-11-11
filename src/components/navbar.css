@@ -1,0 +1,25 @@
+nav {
+  background-color: rgb(48, 44, 44);
+}
+nav ul {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  width: 100%;
+  list-style: none;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.nav-links {
+  margin-left: 20px;
+  width: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.text-link {
+  color: #fff;
+  text-decoration: inherit;
+  padding: 4px 10px;
+  text-decoration: none;
+}
