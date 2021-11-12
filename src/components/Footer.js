@@ -16,6 +16,7 @@ const Footer = styled.footer`
   bottom: 0;
   left: 0;
   right: 0;
+  height: 70px;
   background-color: rgb(48, 44, 44);
   display: flex;
   justify-content: center;

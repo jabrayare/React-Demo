@@ -7,7 +7,6 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-<<<<<<< HEAD
     <Router>
       <div className="App">
         <Navbar />
@@ -22,22 +21,6 @@ function App() {
         <Footer />
       </div>
     </Router>
-=======
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Testing for changes, test commit</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
->>>>>>> 73d3c3b24068c4f487107a81196cb82b31b29e05
   );
 }
 
