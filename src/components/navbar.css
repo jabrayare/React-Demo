@@ -17,9 +17,13 @@ nav ul {
   display: flex;
   justify-content: space-between;
 }
+
 .text-link {
   color: #fff;
   text-decoration: inherit;
   padding: 4px 10px;
   text-decoration: none;
+}
+.text-link:hover {
+  color: orange;
 }

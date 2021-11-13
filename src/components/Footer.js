@@ -12,7 +12,7 @@ function footer() {
 }
 
 const Footer = styled.footer`
-  position: absolute;
+  position: relative;
   bottom: 0;
   left: 0;
   right: 0;
@@ -26,6 +26,7 @@ const Footer = styled.footer`
   span {
     color: orange;
   }
+  margin-top: 20px;
 `;
 
 export default footer;
