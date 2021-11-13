@@ -7,19 +7,17 @@ import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import styled from "styled-components";
 
-function Team() {
+// Object destructuring
+function Team({ data }) {
   return (
     <TeamCard>
       <TeamContent>
         <User className="user">
           <FontAwesomeIcon icon={faUser} className="user" />
         </User>
-        <p className="name">John Doe</p>
-        <p className="title">CSE Major</p>
-        <p className="description">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio
-          inventore voluptatum.
-        </p>
+        <p className="name">{data.name}</p>
+        <p className="title">{data.title}</p>
+        <p className="description">{data.description}</p>
         <SocialLinks>
           <FontAwesomeIcon icon={faLinkedin} className="icon linkedin" />
           <FontAwesomeIcon icon={faGithub} className="icon github" />

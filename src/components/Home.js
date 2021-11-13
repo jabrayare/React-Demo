@@ -1,3 +1,4 @@
+// rcc -> create class based component
 import React from "react";
 
 function Home() {
