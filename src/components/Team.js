@@ -16,7 +16,7 @@ function Team({ data }) {
           <FontAwesomeIcon icon={faUser} className="user" />
         </User>
         <p className="name">{data.name}</p>
-        <p className="title">{data.title}</p>
+        {data.title && <p className="title">{data.title}</p>}
         <p className="description">{data.description}</p>
         <SocialLinks>
           <FontAwesomeIcon icon={faLinkedin} className="icon linkedin" />
@@ -34,8 +34,14 @@ const TeamCard = styled.div`
   display: flex;
   flex-direction: column;
   width: 150px;
-  background-color: #fff;
+  background-color: #cccccc;
+  color: #111;
   box-shadow: -2px -2px 4px -4px rgba(0, 0, 0, 0.75);
+  transition: all 0.2s ease-in;
+  :hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
 `;
 const TeamContent = styled.div`
   width: 100%;
