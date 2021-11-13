@@ -18,7 +18,7 @@ function About() {
         style={{
           "text-align": "center",
           margin: "20px",
-          color: "red",
+          color: "#333",
         }}
       >
         Meet Our Team
