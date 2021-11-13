@@ -1,9 +1,14 @@
 // rcc -> create class based component
 import React from "react";
+import components from "./osu.png";
+import components1 from "./osu_cse.jpg";
 
 function Home() {
   return (
     <div>
+      <img src={components} alt="OSU" style={{width:300, height:200, top:20, left:15}} ></img>
+      <img src={components1} alt="OSU_CSE" style={{width:400, height:125, top:70, right:15, position:'absolute'}}></img>
+
       <h1>General Statement</h1>
       <p>Ohio State’s Department of Computer Science 
         and Engineering has excelled in both research 
@@ -21,7 +26,7 @@ function Home() {
         doctoral degree or both.
         </p> 
 
-        <h1> space</h1>
+        <br/>
 
         <h1>Mission Statement</h1>
         <p>The Department of Computer Science and Engineering 
@@ -41,7 +46,10 @@ function Home() {
           University. We will work with key academic partners within 
           and outside of OSU, and with key industrial partners, in 
           pursuit of our research and educational endeavors.
-</p>
+        </p>
+
+        
+        
     </div>
   );
 }
