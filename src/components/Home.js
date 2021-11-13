@@ -1,14 +1,14 @@
 import ReactDOM from 'react-dom'
 import React, { Component } from 'react'
 //import React from "react";
-import components from "./osu.png";
-import components1 from "./osu_cse.jpg";
+import components from "../images/osu.png";
+import components1 from "../images/osu_cse.jpg";
 import { faHome } from '@fortawesome/free-solid-svg-icons';
 
 //Class Based Component
 //Class based component gets rendered already,
 //so don't need to render separately like function components
-/*export default class Home extends Component {
+export default class Home extends Component {
   render() {
     return (
       <div>
@@ -55,7 +55,7 @@ import { faHome } from '@fortawesome/free-solid-svg-icons';
       </div>
     )
   }
-}*/
+}
 
 
 //Function Based Component
@@ -122,7 +122,7 @@ function Option2() {
 //Rendering function component
 //const gsMs = <GsMsComp/>;
 //ReactDOM.render(gsMs, document.getElementById('root'));
-export default GsMsComp;
+//export default GsMsComp;
 
 //Part 2
 //Embedding expressions in JSX
