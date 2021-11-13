@@ -5,7 +5,7 @@ import styled from "styled-components";
 
 function About() {
   const [member, setMember] = useState([]);
-  const [input, setInput] = useState([]);
+  const [input, setInput] = useState("");
   useEffect(() => {
     fetch("./TeamMembers.json").then((res) =>
       res.json().then((data) => setMember(data))
@@ -27,7 +27,7 @@ function About() {
         <TeamControl>
           {member
             .filter((val) => {
-              if (input == "") {
+              if (input === "") {
                 return val;
               } else if (val.name.toLowerCase().includes(input.toLowerCase())) {
                 return val;

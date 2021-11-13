@@ -16,7 +16,7 @@ function Team({ data }) {
           <FontAwesomeIcon icon={faUser} className="user" />
         </User>
         <p className="name">{data.name}</p>
-        {data.title && <p className="title">{data.title}</p>}
+        {data.major && <p className="title">{data.major}</p>}
         <p className="description">{data.description}</p>
         <SocialLinks>
           <FontAwesomeIcon icon={faLinkedin} className="icon linkedin" />
