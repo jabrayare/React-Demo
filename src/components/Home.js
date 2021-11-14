@@ -120,11 +120,6 @@ function Option2() {
   return <h1>Hello2</h1>;
 }
 
-//Part 4
-//Conditional Rendering
-//const val = true;
-//const op1 = <Option1/>;
-//(val ? ReactDOM.render(op1, document.getElementById('root')) : ReactDOM.render(op1, document.getElementById('root')));
 
 //Part 3
 //Rendering function component
